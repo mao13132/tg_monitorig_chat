@@ -8,3 +8,87 @@ dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:44:26] - aiogram.dispatcher.d
 dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:45:28] - aiogram.dispatcher.dispatcher - Polling is stopped.
 dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:45:28] - aiogram.dispatcher.dispatcher - Stop polling...
 dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:45:30] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:23:45] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:23:45] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:23:49] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:26:12] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:26:12] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:26:15] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:26:39] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:26:39] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:26:41] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:35:36] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:35:36] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:35:39] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:37:24] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:37:24] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:37:28] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:37:48] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:37:49] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:37:51] - aiogram.dispatcher.dispatcher - Start polling.
+base_events.py:1771 #ERROR    [2024-01-02 Tuesday 20:37:55] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'BotDB' object has no attribute 'last_update'")>
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\callbacks\call_user.py", line 26, in words
+    await Sendler_msg.log_client_call(call)
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\sendler\sendler.py", line 178, in log_client_call
+    BotDB.last_update(id_user)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'BotDB' object has no attribute 'last_update'
+base_events.py:1771 #ERROR    [2024-01-02 Tuesday 20:38:14] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'BotDB' object has no attribute 'last_update'")>
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\callbacks\call_user.py", line 26, in words
+    await Sendler_msg.log_client_call(call)
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\sendler\sendler.py", line 178, in log_client_call
+    BotDB.last_update(id_user)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'BotDB' object has no attribute 'last_update'
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:38:25] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:38:28] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:41:21] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:41:22] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:41:24] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:42:13] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:42:13] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:42:17] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:42:39] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:42:39] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:42:41] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:43:37] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:43:37] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:43:48] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:44:40] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:46:04] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:48:15] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:48:15] - aiogram.dispatcher.dispatcher - Stop polling...

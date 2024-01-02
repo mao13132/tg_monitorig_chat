@@ -175,8 +175,6 @@ class Sendler_msg:
 
         id_user = call.message.chat.id
 
-        BotDB.last_update(id_user)
-
     async def log_client_message(message: Message):
 
         _msg = (f'{str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))} '
@@ -185,8 +183,6 @@ class Sendler_msg:
         print(_msg)
 
         id_user = message.chat.id
-
-        BotDB.last_update(id_user)
 
     async def sendler_photo_call(self, call, photo, text, keyb):
         try:

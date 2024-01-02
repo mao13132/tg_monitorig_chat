@@ -7,7 +7,7 @@ from settings import TOKEN
 
 from src.sql.bot_connector import BotDB
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=TOKEN, parse_mode='HTML')
 
 logger = logging.getLogger()
 
@@ -21,9 +21,15 @@ logging.basicConfig(handlers=[logging.FileHandler(filename="./logs.txt",
 class Core:
     def __init__(self):
         storage = MemoryStorage()
+
         dp = Dispatcher(bot, storage=storage)
+
         self.bot = bot
+
         self.storage = storage
+
         self.dp = dp
+
         self.BotDB = BotDB
+
         print(f'Бот запущен\n')
