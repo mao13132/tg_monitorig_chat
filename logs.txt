@@ -1,0 +1,10 @@
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:43:18] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:43:28] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:43:28] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:43:30] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:44:24] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:44:24] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:44:26] - aiogram.dispatcher.dispatcher - Start polling.
+dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:45:28] - aiogram.dispatcher.dispatcher - Polling is stopped.
+dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:45:28] - aiogram.dispatcher.dispatcher - Stop polling...
+dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:45:30] - aiogram.dispatcher.dispatcher - Start polling.
