@@ -68,6 +68,14 @@ class BotDB:
 
         return False
 
+    def get_channels(self):
+
+        result = self.cursor.execute(f"SELECT * FROM channels")
+
+        response = result.fetchall()
+
+        return response
+
     def get_word(self):
 
         result = self.cursor.execute(f"SELECT * FROM words")
@@ -92,6 +100,22 @@ class BotDB:
 
         return False
 
+    def add_channels(self, link):
+
+        result = self.cursor.execute(f"SELECT * FROM channels WHERE link='{link}'")
+
+        response = result.fetchall()
+
+        if response == []:
+            self.cursor.execute("INSERT OR IGNORE INTO channels ('link') VALUES (?)",
+                                (link,))
+
+            self.conn.commit()
+
+            return True
+
+        return False
+
     def del_word(self, id_pk):
 
         try:
@@ -103,6 +127,24 @@ class BotDB:
 
         except Exception as es:
             msg = (f'Ошибка SQL del_word: {es}')
+
+            print(msg)
+
+            return False
+
+        return True
+
+    def del_channel(self, id_pk):
+
+        try:
+            result = self.cursor.execute(f"DELETE FROM channels WHERE id_pk = '{id_pk}'")
+
+            self.conn.commit()
+
+            x = result.fetchall()
+
+        except Exception as es:
+            msg = (f'Ошибка SQL del_channel: {es}')
 
             print(msg)
 

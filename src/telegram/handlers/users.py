@@ -42,7 +42,33 @@ async def del_(message: Message):
     await Sendler_msg().new_sendler_photo_message(message, LOGO, _msg, keyb)
 
 
+async def dels_(message: Message):
+    try:
+        id_tur = str(message.text).split('_')[1]
+    except Exception as es:
+        msg = (f'Ошибка при разборе для удаления dels_{es}')
+        print(msg)
+        try:
+            await Sendler_msg.send_msg_message(message, msg, None)
+        except:
+            pass
+        return False
+
+    _del_word = BotDB.del_channel(id_tur)
+
+    if _del_word:
+        _msg = f'✅ Канал удален'
+    else:
+        _msg = f'❌ Ошибка удаления канала'
+
+    keyb = Admin_keyb().back_add_channels()
+
+    await Sendler_msg().new_sendler_photo_message(message, LOGO, _msg, keyb)
+
+
 def register_user(dp: Dispatcher):
     dp.register_message_handler(start, text_contains='/start')
 
     dp.register_message_handler(del_, text_contains='/del_')
+
+    dp.register_message_handler(dels_, text_contains='/dels_')

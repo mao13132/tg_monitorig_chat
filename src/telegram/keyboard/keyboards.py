@@ -17,9 +17,18 @@ class Admin_keyb(Call_admin):
 
         self._start_key.add(InlineKeyboardButton(text=f'🔑 Ключевые слова', callback_data='words'))
 
-        self._start_key.add(InlineKeyboardButton(text=f'🙋‍ Каналы', callback_data='channels'))
+        self._start_key.add(InlineKeyboardButton(text=f'📝 Каналы', callback_data='channels'))
 
         return self._start_key
+
+    def channels(self):
+        core_keyb = InlineKeyboardMarkup(row_width=1)
+
+        core_keyb.add(InlineKeyboardButton(text=f'➕ Добавить канал', callback_data='add_channels'))
+
+        core_keyb.add(InlineKeyboardButton(text=f'🔙 Назад', callback_data='admin_pamel'))
+
+        return core_keyb
 
     def stop(self):
         core_keyb = InlineKeyboardMarkup(row_width=1)
@@ -34,5 +43,12 @@ class Admin_keyb(Call_admin):
         core_keyb = InlineKeyboardMarkup(row_width=1)
 
         core_keyb.add(InlineKeyboardButton(text=f'🔙 Назад', callback_data='words'))
+
+        return core_keyb
+
+    def back_add_channels(self):
+        core_keyb = InlineKeyboardMarkup(row_width=1)
+
+        core_keyb.add(InlineKeyboardButton(text=f'🔙 Назад', callback_data='channels'))
 
         return core_keyb
