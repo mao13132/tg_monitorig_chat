@@ -4,4 +4,4 @@ venv/
 __pycache__/
 src/.env
 monit.db
-
+src/telegram_user/sessions/

@@ -7,11 +7,16 @@
 #
 # ---------------------------------------------
 import logging
+import sys
+import traceback
 
 
 def logger_msg(message):
-    _msg = f'Logger: {message}'
+    _msg = f'Logger: ' \
+           f'{message}'
 
-    logging.warning(_msg)
+    logging.warning(f"{''.join(traceback.format_exception(sys.exc_info()[0], sys.exc_info()[1], sys.exc_info()[2]))}"
+                    f"\n"
+                    f"{_msg}")
 
     print(_msg)

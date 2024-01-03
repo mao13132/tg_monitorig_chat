@@ -1,114 +1,408 @@
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:43:18] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:43:28] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:43:28] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:43:30] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:44:24] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:44:24] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:44:26] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 19:45:28] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 19:45:28] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 19:45:30] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:23:45] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:23:45] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:23:49] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:26:12] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:26:12] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:26:15] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:26:39] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:26:39] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:26:41] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:35:36] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:35:36] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:35:39] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:37:24] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:37:24] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:37:28] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:37:48] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:37:49] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:37:51] - aiogram.dispatcher.dispatcher - Start polling.
-base_events.py:1771 #ERROR    [2024-01-02 Tuesday 20:37:55] - asyncio - Task exception was never retrieved
-future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'BotDB' object has no attribute 'last_update'")>
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:04:39] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:04:10 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:04:40] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:04:40 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:10] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:04:41 MSK)" skipped: maximum number of running instances reached (1)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - NetworkTask started
+session.py:139 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:05:10] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:11] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:11 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:12] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:12 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:13] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:13 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:14] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:14 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:15] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:15 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:16] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:16 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:17] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:17 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:18] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:18 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:19] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:19 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:20] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:20 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:21] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:21 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:22] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:22 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:23] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:23 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:24] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:24 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:25] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:25 MSK)" skipped: maximum number of running instances reached (1)
+session.py:404 #INFO     [2024-01-03 Wednesday 17:05:25] - pyrogram.session.session - [1] Retrying "contacts.ResolveUsername" due to: Request timed out
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:26] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:26 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:57] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:27 MSK)" skipped: maximum number of running instances reached (1)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - NetworkTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:57] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:57 MSK)" skipped: maximum number of running instances reached (1)
+session.py:139 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:05:57] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:58] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:58 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:05:59] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:05:59 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:00] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:00 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:01] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:01 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:02] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:02 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:03] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:03 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:04] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:04 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:05] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:05 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:06] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:06 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:07] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:07 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:08] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:08 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:09] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:09 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:10] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:10 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:11] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:11 MSK)" skipped: maximum number of running instances reached (1)
+session.py:404 #INFO     [2024-01-03 Wednesday 17:06:12] - pyrogram.session.session - [1] Retrying "messages.ImportChatInvite" due to: Request timed out
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:12] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:12 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:13] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:13 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:43] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:14 MSK)" skipped: maximum number of running instances reached (1)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:06:43] - pyrogram.session.session - NetworkTask started
+session.py:232 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.session.session - Discarding packet: The msg_id is lower than all the stored values
+session.py:232 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.session.session - Discarding packet: The msg_id is lower than all the stored values
+session.py:232 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.session.session - Discarding packet: The msg_id is equal to any of the stored values
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.connection.connection - Disconnected
+session.py:315 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.session.session - NetworkTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.connection.connection - Disconnected
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:06:44] - pyrogram.connection.connection - Disconnected
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:44] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:44 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:45] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:45 MSK)" skipped: maximum number of running instances reached (1)
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:06:45] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:06:45] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:06:45] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.session.session - NetworkTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:46] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:46 MSK)" skipped: maximum number of running instances reached (1)
+session.py:139 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:06:46] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:47] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:47 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:48] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:48 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:49] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:49 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:50] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:50 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:51] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:51 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:52] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:52 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:53] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:53 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:54] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:54 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:55] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:55 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:56] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:56 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:57] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:57 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:58] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:58 MSK)" skipped: maximum number of running instances reached (1)
+session.py:404 #INFO     [2024-01-03 Wednesday 17:06:58] - pyrogram.session.session - [1] Retrying "contacts.ResolveUsername" due to: Request timed out
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:06:59] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:06:59 MSK)" skipped: maximum number of running instances reached (1)
+_logger.py:18 #WARNING  [2024-01-03 Wednesday 17:06:59] - root - Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram_user\join_chat.py", line 25, in join_to_chat
+    response = await self.app.join_chat(name_chat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\chats\join_chat.py", line 68, in join_chat
+    chat = await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 122 seconds is required (caused by "channels.JoinChannel")
+
+Logger: 2024-01-03 17:06:59 Телеграм заблокировал аккаунт на 2 минут(ы) за частоту действий. Встаю в ожидание
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:00] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:00 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:01] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:01 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:02] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:02 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:03] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:03 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:04] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:04 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:05] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:05 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:06] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:06 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:07] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:07 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:08] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:08 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:09] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:09 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:10] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:10 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:11] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:11 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:12] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:12 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:13] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:13 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:14] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:14 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:15] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:15 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:16] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:16 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:17] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:17 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:18] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:18 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:19] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:19 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:20] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:20 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:21] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:21 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:22] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:22 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:23] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:23 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:24] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:24 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:25] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:25 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:26] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:26 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:27] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:27 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:28] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:28 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:29] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:29 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:30] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:30 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:31] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:31 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:32] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:32 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:33] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:33 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:34] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:34 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:35] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:35 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:36] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:36 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:37] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:37 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:38] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:38 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:39] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:39 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:40] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:40 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:41] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:41 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:42] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:42 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:43] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:43 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:44] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:44 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:45] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:45 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:46] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:46 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:47] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:47 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:48] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:48 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:49] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:49 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:50] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:50 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:51] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:51 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:52] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:52 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:53] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:53 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:54] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:54 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:55] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:55 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:56] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:56 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:57] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:57 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:58] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:58 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:07:59] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:07:59 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:00] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:00 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:01] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:01 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:02] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:02 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:03] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:03 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:04] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:04 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:05] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:05 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:06] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:06 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:07] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:07 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:08] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:08 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:09] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:09 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:10] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:10 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:11] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:11 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:12] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:12 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:13] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:13 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:14] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:14 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:15] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:15 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:16] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:16 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:17] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:17 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:18] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:18 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:19] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:19 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:20] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:20 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:21] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:21 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:22] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:22 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:23] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:23 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:24] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:24 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:25] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:25 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:26] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:26 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:27] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:27 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:08:28] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:28 MSK)" skipped: maximum number of running instances reached (1)
+dispatcher.py:405 #WARNING  [2024-01-03 Wednesday 17:08:28] - aiogram.dispatcher.dispatcher - Polling is stopped.
+base_py3.py:36 #ERROR    [2024-01-03 Wednesday 17:08:28] - apscheduler.executors.default - Job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:29 MSK)" raised an exception
 Traceback (most recent call last):
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
-    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
-                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
-    return await asyncio.gather(*tasks)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
-    response = await handler_obj.handler(*args, **partial_data)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
-    return await self.callback_query_handlers.notify(update.callback_query)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
-    response = await handler_obj.handler(*args, **partial_data)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\callbacks\call_user.py", line 26, in words
-    await Sendler_msg.log_client_call(call)
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\sendler\sendler.py", line 178, in log_client_call
-    BotDB.last_update(id_user)
-    ^^^^^^^^^^^^^^^^^
-AttributeError: 'BotDB' object has no attribute 'last_update'
-base_events.py:1771 #ERROR    [2024-01-02 Tuesday 20:38:14] - asyncio - Task exception was never retrieved
-future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'BotDB' object has no attribute 'last_update'")>
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram_user\join_chat.py", line 25, in join_to_chat
+    response = await self.app.join_chat(name_chat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\chats\join_chat.py", line 68, in join_chat
+    chat = await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 122 seconds is required (caused by "channels.JoinChannel")
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
-    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
-                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
-    return await asyncio.gather(*tasks)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
-    response = await handler_obj.handler(*args, **partial_data)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
-    return await self.callback_query_handlers.notify(update.callback_query)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
-    response = await handler_obj.handler(*args, **partial_data)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\callbacks\call_user.py", line 26, in words
-    await Sendler_msg.log_client_call(call)
-  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram\sendler\sendler.py", line 178, in log_client_call
-    BotDB.last_update(id_user)
-    ^^^^^^^^^^^^^^^^^
-AttributeError: 'BotDB' object has no attribute 'last_update'
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:38:25] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:38:28] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:41:21] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:41:22] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:41:24] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:42:13] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:42:13] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:42:17] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:42:39] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:42:39] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:42:41] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:43:37] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:43:37] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:43:48] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:44:40] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:46:04] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:48:15] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:48:15] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:48:17] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:53:13] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:53:13] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:53:16] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:58:24] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:58:24] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:58:27] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:58:58] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:58:58] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:59:00] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 20:59:29] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 20:59:29] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 20:59:39] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 21:04:35] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 21:04:35] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 21:04:38] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 21:06:46] - aiogram.dispatcher.dispatcher - Polling is stopped.
-dispatcher.py:433 #INFO     [2024-01-02 Tuesday 21:06:46] - aiogram.dispatcher.dispatcher - Stop polling...
-dispatcher.py:358 #INFO     [2024-01-02 Tuesday 21:06:48] - aiogram.dispatcher.dispatcher - Start polling.
-dispatcher.py:405 #WARNING  [2024-01-02 Tuesday 21:07:02] - aiogram.dispatcher.dispatcher - Polling is stopped.
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram_user\monitoring_telegram.py", line 276, in start_monitoring
+    if not id_chat:
+                  ^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram_user\monitoring_telegram.py", line 238, in get_id_chat
+    if 'FLOOD' in str(es):
+               ^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram_user\join_chat.py", line 30, in join_to_chat
+    res = await is_flood(es)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\asyncio\tasks.py", line 639, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+dispatcher.py:433 #INFO     [2024-01-03 Wednesday 17:08:29] - aiogram.dispatcher.dispatcher - Stop polling...
+aes.py:26 #INFO     [2024-01-03 Wednesday 17:08:40] - pyrogram.crypto.aes - Using TgCrypto
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:08:42] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:08:42] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:08:42] - pyrogram.session.session - NetworkTask started
+session.py:139 #INFO     [2024-01-03 Wednesday 17:08:43] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:08:43] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:08:43] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:08:43] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:08:43] - pyrogram.session.session - PingTask started
+dispatcher.py:154 #INFO     [2024-01-03 Wednesday 17:08:43] - pyrogram.dispatcher - Started 12 HandlerTasks
+base.py:454 #INFO     [2024-01-03 Wednesday 17:08:43] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+base.py:895 #INFO     [2024-01-03 Wednesday 17:08:43] - apscheduler.scheduler - Added job "MonitoringTelegram.start_monitoring" to job store "default"
+base.py:181 #INFO     [2024-01-03 Wednesday 17:08:43] - apscheduler.scheduler - Scheduler started
+dispatcher.py:358 #INFO     [2024-01-03 Wednesday 17:08:43] - aiogram.dispatcher.dispatcher - Start polling.
+base_py3.py:28 #INFO     [2024-01-03 Wednesday 17:08:44] - apscheduler.executors.default - Running job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:45 MSK)" (scheduled at 2024-01-03 17:08:44.453780+03:00)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:15] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:08:45 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:45] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:15 MSK)" skipped: maximum number of running instances reached (1)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - NetworkTask started
+session.py:139 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:09:45] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:46] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:46 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:47] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:47 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:49] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:48 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:50] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:50 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:51] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:51 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:52] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:52 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:53] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:53 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:54] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:54 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:55] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:55 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:56] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:56 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:57] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:57 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:58] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:58 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:09:59] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:09:59 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:00] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:00 MSK)" skipped: maximum number of running instances reached (1)
+session.py:404 #INFO     [2024-01-03 Wednesday 17:10:00] - pyrogram.session.session - [1] Retrying "contacts.ResolveUsername" due to: Request timed out
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:01] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:01 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:12] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:02 MSK)" skipped: maximum number of running instances reached (1)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.session.session - NetworkTask started
+session.py:232 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.session.session - Discarding packet: The msg_id is lower than all the stored values
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.connection.connection - Disconnected
+session.py:315 #INFO     [2024-01-03 Wednesday 17:10:12] - pyrogram.session.session - NetworkTask stopped
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:12] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:12 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:13] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:13 MSK)" skipped: maximum number of running instances reached (1)
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:10:14] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:10:14] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:10:14] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:10:14] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:10:14] - pyrogram.session.session - NetworkTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:14] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:14 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:49] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:15 MSK)" skipped: maximum number of running instances reached (1)
+session.py:139 #INFO     [2024-01-03 Wednesday 17:10:49] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:10:49] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:10:49] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:10:49] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:10:49] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:10:49] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:49 MSK)" skipped: maximum number of running instances reached (1)
+_logger.py:18 #WARNING  [2024-01-03 Wednesday 17:10:58] - root - Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1001451295949'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 85, in resolve_peer
+    return await self.storage.get_peer_by_phone_number(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\storage\sqlite_storage.py", line 168, in get_peer_by_phone_number
+    raise KeyError(f"Phone number not found: {phone_number}")
+KeyError: 'Phone number not found: -1001451295949'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\src\telegram_user\monitoring_telegram.py", line 152, in start_monitoring_chat
+    async for message in self.app.get_chat_history(chat_id):
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\messages\get_chat_history.py", line 101, in get_chat_history
+    messages = await get_chunk(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\messages\get_chat_history.py", line 37, in get_chunk
+    peer=await client.resolve_peer(chat_id),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\tg_monitoring_admin\venv\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 87, in resolve_peer
+    raise PeerIdInvalid
+pyrogram.errors.exceptions.bad_request_400.PeerIdInvalid: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it 
+
+Logger: Выгнали из чата или незнакомый чат
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:11:28] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:10:50 MSK)" skipped: maximum number of running instances reached (1)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.connection.connection - Connecting...
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:11:28] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:11:28 MSK)" skipped: maximum number of running instances reached (1)
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - NetworkTask started
+session.py:139 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:11:28] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:11:29] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:11:29 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:09] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:11:30 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:09] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:09 MSK)" skipped: maximum number of running instances reached (1)
+base_py3.py:41 #INFO     [2024-01-03 Wednesday 17:12:40] - apscheduler.executors.default - Job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:10 MSK)" executed successfully
+base_py3.py:28 #INFO     [2024-01-03 Wednesday 17:12:40] - apscheduler.executors.default - Running job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:40 MSK)" (scheduled at 2024-01-03 17:12:39.453780+03:00)
+session.py:315 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - NetworkTask stopped
+session.py:291 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.connection.connection - Disconnected
+session.py:180 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - Session stopped
+connection.py:47 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:294 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - NetworkTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:40] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:40 MSK)" skipped: maximum number of running instances reached (1)
+session.py:139 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2024-01-03 Wednesday 17:12:40] - pyrogram.session.session - PingTask started
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:41] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:41 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:42] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:42 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:43] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:43 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:44] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:44 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:45] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:45 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:46] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:46 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:47] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:47 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:48] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:48 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:49] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:49 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:50] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:50 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:51] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:51 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:52] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:52 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:53] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:53 MSK)" skipped: maximum number of running instances reached (1)
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:54] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:54 MSK)" skipped: maximum number of running instances reached (1)
+session.py:404 #INFO     [2024-01-03 Wednesday 17:12:55] - pyrogram.session.session - [1] Retrying "messages.GetHistory" due to: Request timed out
+base.py:990 #WARNING  [2024-01-03 Wednesday 17:12:55] - apscheduler.scheduler - Execution of job "MonitoringTelegram.start_monitoring (trigger: interval[0:00:01], next run at: 2024-01-03 17:12:55 MSK)" skipped: maximum number of running instances reached (1)

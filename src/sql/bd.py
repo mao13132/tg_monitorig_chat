@@ -68,6 +68,29 @@ class BotDB:
 
         return False
 
+    def exist_message(self, id_chat, id_msg):
+        try:
+            result = self.cursor.execute(f"SELECT * FROM monitoring WHERE id_chat='{id_chat}' AND id_msg='{id_msg}'")
+
+            response = result.fetchall()
+
+        except Exception as es:
+            print(f'Ошибка при проверки существования записи из TG канала "{es}"')
+            return False
+
+        if response == []:
+            return False
+
+        return True
+
+    def update_id_channel(self, id_pk, id_channel):
+
+        self.cursor.execute(f"UPDATE channels SET id_chanel = '{id_channel}' WHERE id_pk='{id_pk}'")
+
+        self.conn.commit()
+
+        return True
+
     def get_channels(self):
 
         result = self.cursor.execute(f"SELECT * FROM channels")

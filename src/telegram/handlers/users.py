@@ -4,7 +4,6 @@ from aiogram import Dispatcher, types
 
 from settings import START_MESSAGE, ADMIN, LOGO
 from src.telegram.keyboard.keyboards import Admin_keyb
-from src.telegram.logic.no_command import no_command
 from src.telegram.sendler.sendler import Sendler_msg
 from src.telegram.bot_core import BotDB
 
